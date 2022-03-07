@@ -8,7 +8,7 @@ export default function CallBackTutorial() {
 
   const returnComment = useCallback(
     (name) => {
-      return data + name;
+      return data;
     },
     [data]
   );
